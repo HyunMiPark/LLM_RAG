@@ -27,3 +27,21 @@ __pycache__/
 .env/
 .ch01_env/
 .ch02_env/
+exit
+cat <<'EOF' >> .gitignore
+# Jupyter
+.ipynb_checkpoints/
+# Python
+__pycache__/
+*.py[cod]
+# venv / conda env
+.ch01_env/
+.ch02_env/
+ch01_env/
+ch02_env/
+.venv/
+env/
+venv/
+# OS/IDE
+.DS_Store
+.vscode/
