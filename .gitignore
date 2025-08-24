@@ -37,8 +37,10 @@ __pycache__/
 # venv / conda env
 .ch01_env/
 .ch02_env/
+.ch03_env/
 ch01_env/
 ch02_env/
+ch03_env/
 .venv/
 env/
 venv/
