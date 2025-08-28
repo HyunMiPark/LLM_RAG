@@ -25,8 +25,6 @@ __pycache__/
 # 가상환경
 .venv/
 .env/
-.ch01_env/
-.ch02_env/
 exit
 cat <<'EOF' >> .gitignore
 # Jupyter
@@ -35,12 +33,10 @@ cat <<'EOF' >> .gitignore
 __pycache__/
 *.py[cod]
 # venv / conda env
-.ch01_env/
-.ch02_env/
-.ch03_env/
 ch01_env/
 ch02_env/
 ch03_env/
+ch04_env/
 .venv/
 env/
 venv/
